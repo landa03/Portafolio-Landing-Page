@@ -1,0 +1,11 @@
+.testBox{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+}
