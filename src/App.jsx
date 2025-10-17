@@ -20,7 +20,8 @@ function App() {
     timeLine1.to(testBoxRef.current,{
       x: 200,
       duration: 3,
-      delay: 1
+      delay: 1,
+      repeat: -1
     });
   });
 

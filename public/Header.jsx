@@ -10,12 +10,13 @@ function Header() {
     <section>
 
       <div className='header'>
-        <div className='headerPersonName'>David</div>
+        <div className='headerPersonName'><p>David</p></div>
         <div className='headerButtons'>
-            <div className='headerButton-1'>Contact</div>
-            <div className='headerButton-2'> Expirience</div>
-            <div className='headerButton-3'>Skills</div>
+            <a className='headerButton-1'><div>Contact</div></a>
+            <a className='headerButton-2'> Experience</a>
+            <a className='headerButton-3'>Skills</a>
         </div>
+        <div className="columSpacer"></div>
       </div>
     </section>
   );
