@@ -1,7 +1,7 @@
 import gsap from "gsap"
 import { useGSAP } from '@gsap/react';
 
-import './Header.css'
+import './Header.scss'
 import { Timeline } from 'gsap/gsap-core';
 // gsap.registerPlugin(useGSAP); 
 
