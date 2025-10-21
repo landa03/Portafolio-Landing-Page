@@ -1,17 +1,18 @@
 $portafolio-white: rgb(224, 235, 235);
-// $button-background-color: rgba(38, 217, 217, 0.5)
+$portafolio-black: rgb(18, 26, 26);
 $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(38, 217, 217, 0) 50%);
-// $button-hover-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.5), rgba(38, 217, 217, 0) 75%);
-$button-hover-background-color: linear-gradient(0deg, rgba(217, 38, 38, 0.5), rgba(38, 217, 217, 0) 25%);
 @font-face {
     font-family: Inter;
     src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-
+a{
+  all: unset;
+  cursor: pointer;
+}
 
 .header{
-    background-color: rgb(18, 26, 26);
+    background-color: $portafolio-black;
     width: 100%;
     height: 64px;
     margin: 0px;
@@ -26,7 +27,7 @@ $button-hover-background-color: linear-gradient(0deg, rgba(217, 38, 38, 0.5), rg
     
 }
 
-.headerPersonName{
+.header-person-name{
     font-size: 48px;
     font-weight: bold;
     font-family: Inter;
@@ -44,7 +45,7 @@ $button-hover-background-color: linear-gradient(0deg, rgba(217, 38, 38, 0.5), rg
     }
 }
 
-.headerButtons{
+.header-buttons{
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -66,7 +67,7 @@ $button-hover-background-color: linear-gradient(0deg, rgba(217, 38, 38, 0.5), rg
         // background-image: linear-gradient(0deg, rgba(38, 217, 217, 0.5), rgba(38, 217, 217, 0) 25%);
         // background-color: red;
         height: 100%;
-        width: fit-content;
+        width:max-content;
         padding-left: 32px;
         padding-right: 32px;
         div{
@@ -84,7 +85,7 @@ $button-hover-background-color: linear-gradient(0deg, rgba(217, 38, 38, 0.5), rg
     width: 100%;
 }
 
-.columSpacer{
+.colum-spacer{
     display: flex;
     width: 100%;
 }

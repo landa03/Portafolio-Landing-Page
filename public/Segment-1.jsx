@@ -1,20 +1,19 @@
-import './Header.scss'
+import './Segment-1.scss'
 
-function Header() {
+function Segment1() {
   return (
     <section>
-
-      <div className='header'>
-        <div className='headerPersonName'><p>David</p></div>
-        <div className='headerButtons'>
-            <a className='headerButton-1'><div>Contact</div></a>
-            <a className='headerButton-2'> Experience</a>
-            <a className='headerButton-3'>Skills</a>
+      <div className='segment-body'>
+        <div>
+          <div>HI I AM</div>
+          <div>David Omar Landa Aguirre</div>
+          <div>Multimedia Engineer</div>
+          <a>Send me an e-mail</a>
         </div>
-        <div className="columSpacer"></div>
+        <div></div>
       </div>
     </section>
   );
 }
-export default Header
+export default Segment1
 
