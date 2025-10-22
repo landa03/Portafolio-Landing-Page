@@ -1,5 +1,6 @@
 $portafolio-white: rgb(224, 235, 235);
 $portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
 $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(38, 217, 217, 0) 50%);
 @font-face {
     font-family: Inter;
@@ -12,4 +13,73 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     width: 100%;
     color: $portafolio-white;
     font-family: Inter;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.segment-body-left{
+    display: flex;
+    flex-direction: column;
+    // width: 50%;
+    width: 630px;
+    align-items: start;
+    padding-top: 80px;
+    .text-1{
+        font-size: 48px;
+        padding-bottom: 32px;
+
+    }
+    .text-2{
+        font-size: 96px;
+        width: 630px;
+        font-weight: bold;
+    }
+    .text-3{
+        font-size: 48px;
+        text-align: end;
+        align-self: flex-end;
+        font-weight: bold;
+        padding-bottom: 40px;
+    }
+    .send-e-mail-button{
+        font-size: 24px;
+        align-self: flex-end;
+        color: $portafolio-black;
+        background-color: $portafolio-blue;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+    }
+}
+.segment-body-right{
+    width: 50%;
+    width: 660px;
+    overflow: hidden;
+    .blue-decal{
+        overflow: hidden;
+        background-color: $portafolio-blue;
+        height: 476px;
+        width: 1168px;
+        border-radius: 584px;
+        position: absolute;
+        left: 50vw;
+        top: 400px;
+        // position: ;
+    }
+    .person-img-container{
+        position: absolute;
+        left: 50vw;
+        top: 156px;
+        height: 720px;
+        border-radius: 237px;
+        overflow: hidden;
+        img{
+            position: relative;
+            bottom: -10px;
+            left: -5px;
+        }
+    }
 }
