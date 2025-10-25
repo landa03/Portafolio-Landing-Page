@@ -3,7 +3,7 @@ import './Segment-1.scss'
 function Segment1() {
   return (
     <section>
-      <div className='segment-body'>
+      <div className='segment-1-body'>
         <div className='segment-body-left'>
           <div className='text-1'>HI I AM</div>
           <div className='text-2'>David Omar Landa Aguirre</div>

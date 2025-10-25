@@ -1,0 +1,51 @@
+$portafolio-white: rgb(224, 235, 235);
+$portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
+$button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(38, 217, 217, 0) 50%);
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.segment-2-body{
+    background-color: $portafolio-black;
+    color: $portafolio-white;
+    font-family: Inter;
+    
+    display: flex;
+    
+    flex-direction: column;
+    height: 1656px;
+    width: 100%;
+    align-items: center;
+}
+
+.segment-2-top-half{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+
+    .segment-2-top-half-title{
+        font-size: 64px;
+    }
+
+    .front-end-projects{
+        overflow-x: scroll;
+        // width: 100%;
+    }
+}
+
+
+.segment-2-bottom-half{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+
+    .segment-2-bottom-half-title{
+        font-size: 64px;
+    }
+}

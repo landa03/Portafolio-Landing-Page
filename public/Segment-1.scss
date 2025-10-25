@@ -7,7 +7,7 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-.segment-body{
+.segment-1-body{
     background-color: $portafolio-black;
     height: 1016px;
     width: 100%;
@@ -52,6 +52,13 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 40px;
+        transition: all 0.2s ease-in-out;
+    }
+    .send-e-mail-button:hover{
+        transition: all 0.2s ease-in-out;
+        background-color: $portafolio-blue;
+        filter: brightness(130%);
+        
     }
 }
 .segment-body-right{
