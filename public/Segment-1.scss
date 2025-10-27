@@ -10,7 +10,8 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
 .segment-1-body{
     background-color: $portafolio-black;
     height: 1016px;
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     color: $portafolio-white;
     font-family: Inter;
     display: flex;
@@ -64,16 +65,14 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
 .segment-body-right{
     width: 50%;
     width: 660px;
-    overflow: hidden;
     .blue-decal{
-        overflow: hidden;
         background-color: $portafolio-blue;
         height: 476px;
         width: 1168px;
         border-radius: 584px;
-        position: absolute;
-        left: 50vw;
-        top: 400px;
+        position: relative;
+        left: 15px;
+        top: 336px;
         // position: ;
     }
     .person-img-container{
