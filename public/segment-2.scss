@@ -34,6 +34,18 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     .front-end-projects{
         overflow-x: scroll;
         // width: 100%;
+        .front-end-project{
+            height: 504px;
+            width: 384px;
+            border-radius: 36px;
+            background-color: $portafolio-white;
+            p{
+                border-radius: 36px;
+                background-color: $portafolio-blue;
+                height: 80px;
+                text-align: center;
+            }
+        }
     }
 }
 
