@@ -56,7 +56,16 @@ function Segment2() {
         <div className='segment-2-bottom-half'>
             <div className='segment-2-bottom-half-title'>Software Development Experience</div>
             <div className='software-development-projects'>
-                <div className='software-development-project'></div>
+
+                <div className='software-development-project'>
+                  <div className='software-development-project-title'>
+                      <p>Project 1</p>
+                      <a href="#">
+                        <img src="" alt="" />
+                      </a>
+                    </div>
+                </div>
+
             </div>
         </div>
       </div>
