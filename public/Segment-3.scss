@@ -1,0 +1,13 @@
+$portafolio-white: rgb(224, 235, 235);
+$portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.segment-3-body{
+    width: 100%;
+    height: 2927px;
+    background-color: $portafolio-black;
+}

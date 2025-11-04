@@ -6,8 +6,8 @@ function Segment2() {
       <div className='segment-2-body'>
         <div className='segment-2-top-half'>
             <div className='segment-2-top-half-title'>Front End Experience</div>
+                {/* TODO: cambiar a Project-cards */}
             <div className='front-end-projects'>
-
                 <div className='front-end-project'>
                     <div className='front-end-project-title'>
                       <p>Project 1</p>
