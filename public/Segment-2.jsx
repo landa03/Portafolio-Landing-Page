@@ -1,5 +1,7 @@
 import './Segment-2.scss'
 
+import ProjectCard from "../public/Project-card"
+
 function Segment2() {
   return (
     <section>
@@ -8,48 +10,22 @@ function Segment2() {
             <div className='segment-2-top-half-title'>Front End Experience</div>
                 {/* TODO: cambiar a Project-cards */}
             <div className='front-end-projects'>
-                <div className='front-end-project'>
+
+
+
+                {/* <div className='front-end-project'>
                     <div className='front-end-project-title'>
                       <p>Project 1</p>
                       <a href="#">
                         <img src="" alt="" />
                       </a>
                     </div>
-                </div>
+                </div> */}
 
-                <div className='front-end-project'>
-                    <div className='front-end-project-title'>
-                      <p>Project 2</p>
-                      <a href="#">
-                        <img src="" alt="" />
-                      </a>
-                    </div>
-                </div>
-                
-                <div className='front-end-project'>
-                    <div className='front-end-project-title'>
-                      <p>Project 3</p>
-                      <a href="#">
-                        <img src="" alt="" />
-                      </a>
-                    </div>
-                </div>
-                <div className='front-end-project'>
-                    <div className='front-end-project-title'>
-                      <p>Project 4</p>
-                      <a href="#">
-                        <img src="" alt="" />
-                      </a>
-                    </div>
-                </div>
-                <div className='front-end-project'>
-                    <div className='front-end-project-title'>
-                      <p>Project 5</p>
-                      <a href="#">
-                        <img src="" alt="" />
-                      </a>
-                    </div>
-                </div>
+                <ProjectCard projectTitle={"Project 1"}/>
+                <ProjectCard />
+
+               
 
             </div>
         </div>
