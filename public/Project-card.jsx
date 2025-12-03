@@ -1,26 +1,16 @@
 import './Project-card.scss'
 
-let thisProjectTitle = ''
 let thisProjectLinck = '#'
 let thisProjectImgPath = ''
 
-function ProjectCard( {projectTitle, projectLinck, projectImgPath} ) {
-
-  if (projectTitle == '') {
-      thisProjectTitle = "Project title"
-    }else{
-        thisProjectTitle = projectTitle
-  }
-  
-  //   thisProjectTitle = projectTitle
-  //   thisProjectLinck = projectLinck
-  //   thisProjectImgPath = projectImgPath
+// function ProjectCard({projectTitle, projectLinck, projectImgPath}) {
+function ProjectCard({projectTitle = "Project title"}) {
 
     return (
-    <div className='front-end-project'>
-        <div className='front-end-project-title'>
+    <div className='project-card'>
+        <div className='project-card-title'>
           {/* <p>Project 1</p> */}
-          <p>{thisProjectTitle}</p>
+          <p>{projectTitle}</p>
           <a href={thisProjectLinck}>
             <img src={thisProjectImgPath} alt="" />
           </a>

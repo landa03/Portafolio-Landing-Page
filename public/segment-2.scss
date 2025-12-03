@@ -20,7 +20,7 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     align-items: center;
 }
 
-.segment-2-top-half{
+.segment-2-half{
     display: flex;
     flex-direction: column;
     height: 50%;
@@ -29,96 +29,20 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     overflow-x: hidden;
 
 
-    .segment-2-top-half-title{
+    .segment-2-half-title{
         font-size: 64px;
         padding-bottom: 40px;
     }
 
-    .front-end-projects{
+    .segment-2-projects{
         overflow-x: scroll;
         // width: 100%;
         display: flex;
         flex-direction: row;
-        gap: 128px;
+        gap: 80px;
         // width: 100%;
         width: fit-content;
         max-width: 80%;
         overflow-x: scroll;
-        // justify-content: center;
-        // padding-left: 296px;
-        // padding-left: 10%;
-        // padding-right: 10%;
-        // margin-left: 296px;
-        .front-end-project{
-            height: 504px;
-            width: 384px;
-            min-width: 384px;
-            border-radius: 36px;
-            background-color: $portafolio-white;
-            .front-end-project-title{
-                border-radius: 36px;
-                background-color: $portafolio-blue;
-                height: 72px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                p{
-                    color: $portafolio-black;
-                    text-align: center;
-                    font-size: 32px;
-                    font-weight:500;
-
-                }
-            }
-        }
-    }
-}
-
-
-.segment-2-bottom-half{
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    width: 100%;
-    align-items: center;
-
-    .segment-2-bottom-half-title{
-        font-size: 64px;
-        padding-bottom: 40px;
-    }
-    .software-development-projects{
-        overflow-x: scroll;
-        // width: 100%;
-        display: flex;
-        flex-direction: row;
-        gap: 128px;
-        // width: 100%;
-        width: fit-content;
-        max-width: 80%;
-        overflow-x: scroll;
-        // padding-left: 296px;
-        justify-content: center;
-        .software-development-project{
-            height: 504px;
-            width: 384px;
-            min-width: 384px;
-            border-radius: 36px;
-            background-color: $portafolio-white;
-            .software-development-project-title{
-                border-radius: 36px;
-                background-color: $portafolio-blue;
-                height: 72px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                p{
-                    color: $portafolio-black;
-                    text-align: center;
-                    font-size: 32px;
-                    font-weight:500;
-
-                }
-            }
-        }
     }
 }

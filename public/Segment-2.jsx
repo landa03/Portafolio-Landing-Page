@@ -6,10 +6,10 @@ function Segment2() {
   return (
     <section>
       <div className='segment-2-body'>
-        <div className='segment-2-top-half'>
-            <div className='segment-2-top-half-title'>Front End Experience</div>
+        <div className='segment-2-half'>
+            <div className='segment-2-half-title'>Front End Experience</div>
                 {/* TODO: cambiar a Project-cards */}
-            <div className='front-end-projects'>
+            <div className='segment-2-projects'>
 
 
 
@@ -22,25 +22,22 @@ function Segment2() {
                     </div>
                 </div> */}
 
-                <ProjectCard projectTitle={"Project 1"}/>
-                <ProjectCard />
+                <ProjectCard projectTitle={"Place holder 1"}/>
+                <ProjectCard projectTitle={"Place holder 2"}/>
+                <ProjectCard projectTitle={"Place holder 3"}/>
+                <ProjectCard projectTitle={"Place holder 4"}/>
+                <ProjectCard projectTitle={"Place holder 5"}/>
 
                
 
             </div>
         </div>
-        <div className='segment-2-bottom-half'>
-            <div className='segment-2-bottom-half-title'>Software Development Experience</div>
-            <div className='software-development-projects'>
-
-                <div className='software-development-project'>
-                  <div className='software-development-project-title'>
-                      <p>Project 1</p>
-                      <a href="#">
-                        <img src="" alt="" />
-                      </a>
-                    </div>
-                </div>
+        <div className='segment-2-half'>
+            <div className='segment-2-half-title'>Software Development Experience</div>
+            <div className='segment-2-projects'>
+              <ProjectCard projectTitle={"Place holder 1"}/>
+              <ProjectCard projectTitle={"Place holder 2"}/>
+              <ProjectCard projectTitle={"Place holder 3"}/>
 
             </div>
         </div>
