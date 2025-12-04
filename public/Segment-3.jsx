@@ -1,18 +1,13 @@
 import './Segment-3.scss'
 
+import SkillBar from "../public/Skill-bar"
+
 function Segment3() {
   return (
-    <section>
-      <div className='segment-3-body'>
-      <div className='segment-3-title'><p>My Skills and Advantages</p></div>
-      <div className='segment-3-progres-barrs'>
-        {/* progress-brr *13 */}
-      </div>
-      <div className='segment-3-skill-bricks'>
-        {/* skill-brick *22 */}
-      </div>
-      </div>
-    </section>
+    <div className='segment-3-body'>
+      <div className='segment-title'>My Skills and Advantages</div>
+      <SkillBar />
+    </div>
   );
 }
 export default Segment3

@@ -1,0 +1,34 @@
+$portafolio-white: rgb(224, 235, 235);
+$portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.skill-bar{
+    height: 64px;
+    display: flex;
+    color: $portafolio-black;
+    align-items: center;
+    font-size: 32px;
+    width: 64%;
+    //100% - x
+    //1920px - 1227%
+}
+
+.skill-name{
+    width: fit-content;
+}
+
+.skill-bar{
+    background-color: $portafolio-white;
+}
+
+.skill-bar-progres-bar{
+    background-color: $portafolio-blue;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

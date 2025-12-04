@@ -16,4 +16,12 @@ p{
     background-color: $portafolio-black;
     color: $portafolio-white;
     font-family: Inter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    .segment-title{
+        font-size: 64px;
+        padding-bottom: 40px;
+    }
 }
