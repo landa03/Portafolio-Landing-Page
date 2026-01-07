@@ -35,7 +35,7 @@ function SkillBar({skillName = "Skill", maxProgres = "5", curProgres = "1", barI
 
   timeLine2.from(progressbarId,{
     scrollTrigger:{
-      markers: true,
+      // markers: true,
       trigger: skillbarId,
       start: "top+=-200 bottom",
       end: "top+=-200 bottom+=-200",
@@ -47,7 +47,7 @@ function SkillBar({skillName = "Skill", maxProgres = "5", curProgres = "1", barI
       scrub: 0.5,
     },
     width: 0,
-    minWidth: 0 
+    // minWidth: 0 
   });
 
   });

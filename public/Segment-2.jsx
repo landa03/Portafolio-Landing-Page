@@ -9,7 +9,7 @@ function Segment2() {
         <div className='segment-2-half'>
             <div className='segment-2-half-title'>Front End Experience</div>
                 {/* TODO: cambiar a Project-cards */}
-            <div className='segment-2-projects'>
+            <div className='segment-2-projects project-card-holder'>
 
 
 
@@ -22,11 +22,11 @@ function Segment2() {
                     </div>
                 </div> */}
 
-                <ProjectCard projectTitle={"Place holder 1"}/>
-                <ProjectCard projectTitle={"Place holder 2"}/>
-                <ProjectCard projectTitle={"Place holder 3"}/>
-                <ProjectCard projectTitle={"Place holder 4"}/>
-                <ProjectCard projectTitle={"Place holder 5"}/>
+                <ProjectCard projectTitle={"Place holder 1"} cardId={"1"}/>
+                <ProjectCard projectTitle={"Place holder 2"} cardId={"2"}/>
+                <ProjectCard projectTitle={"Place holder 3"} cardId={"3"}/>
+                <ProjectCard projectTitle={"Place holder 4"} cardId={"4"}/>
+                <ProjectCard projectTitle={"Place holder 5"} cardId={"5"}/>
 
                
 
@@ -34,10 +34,10 @@ function Segment2() {
         </div>
         <div className='segment-2-half'>
             <div className='segment-2-half-title'>Software Development Experience</div>
-            <div className='segment-2-projects'>
-              <ProjectCard projectTitle={"Place holder 1"}/>
-              <ProjectCard projectTitle={"Place holder 2"}/>
-              <ProjectCard projectTitle={"Place holder 3"}/>
+            <div className='segment-2-projects project-card-holder'>
+              <ProjectCard projectTitle={"Place holder 1"} cardId={"6"}/>
+              <ProjectCard projectTitle={"Place holder 2"} cardId={"7"}/>
+              <ProjectCard projectTitle={"Place holder 3"} cardId={"8"}/>
 
             </div>
         </div>

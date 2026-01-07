@@ -26,3 +26,13 @@ p{
         padding-bottom: 40px;
     }
 }
+
+.skillWall{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 68px;
+    row-gap: 48px;
+    width: 64%;
+    justify-content: center;
+}

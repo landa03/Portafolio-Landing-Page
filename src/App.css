@@ -13,3 +13,15 @@
 .bottomGap{
     height: 800px;
 }
+
+
+.horizontalScrollContainer{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    max-width: 600px;
+}
+
+.horizontalScrollItem{
+    min-width: 200px;
+}

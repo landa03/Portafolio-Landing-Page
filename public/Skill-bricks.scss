@@ -1,0 +1,20 @@
+$portafolio-white: rgb(224, 235, 235);
+$portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.skillBrick{
+    height: 64px;
+    width: max-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 32px;
+    border-radius: 40px;
+    background-color: $portafolio-blue;
+    color:  $portafolio-black;
+    text-align: center;
+    align-content: center;
+}

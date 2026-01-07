@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     <Segment1 />
     <Segment2 />
     <Segment3 />
-    {/* <App /> */}
+    <App />
 
     {/* <App /> */}
   </StrictMode>,
