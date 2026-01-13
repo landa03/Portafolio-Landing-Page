@@ -1,0 +1,12 @@
+$portafolio-white: rgb(224, 235, 235);
+$portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
+$button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(38, 217, 217, 0) 50%);
+
+#root{
+    background-image: url(/public/imgs/decoration\ lines.png);
+    background-color: $portafolio-black;
+    background-repeat: repeat-y;
+    background-position: 82% 0px;
+}
+

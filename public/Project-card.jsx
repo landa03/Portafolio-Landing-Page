@@ -46,20 +46,20 @@ function ProjectCard({projectTitle = "Project title", cardId = "0"}) {
       duration: 2,
     });
 
-    timeLine2.from(projectCardId,{
-      scrollTrigger: {
-        horizontal: true,
-        trigger: projectCardId,
-        // trigger: cardContainer,
-        // markers: true,
-        start: "left left+=100",
-        end: "left left",
-        scrub: 1,
-      },
-      x: -300,
-      opacity: 0,
-      duration: 2,
-    });
+    // timeLine2.from(projectCardId,{
+    //   scrollTrigger: {
+    //     horizontal: true,
+    //     trigger: projectCardId,
+    //     // trigger: cardContainer,
+    //     // markers: true,
+    //     start: "left left+=100",
+    //     end: "left left",
+    //     scrub: 1,
+    //   },
+    //   x: -300,
+    //   opacity: 0,
+    //   duration: 2,
+    // });
   });
 
     return (

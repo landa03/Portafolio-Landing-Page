@@ -39,7 +39,7 @@ function App() {
 
     timeLine2.to(horizontalScrollContainerRef, {
       scrollTrigger: {
-        markers: true,
+        // markers: true,
         trigger: ".horizontalScrollContainer",
         horizontal: true,
         start: "left top",
@@ -59,7 +59,8 @@ function App() {
         <div className='testBox' ref={testBoxRef}>Kill me</div>
       </div>
 
-      <div className='horizontalScrollContainer' ref={horizontalScrollContainerRef}>
+      {/* <div className='horizontalScrollContainer' ref={horizontalScrollContainerRef}> */}
+      <div className='horizontalScrollContainer' id='horizontalScrollContainer1'>
         <div className='horizontalScrollItem testBox' id='testBox1'>Kill poop #1</div>
         <div className='horizontalScrollItem testBox' id='testBox2'>Kill poop #2</div>
         <div className='horizontalScrollItem testBox' id='testBox3'>Kill poop #3</div>
