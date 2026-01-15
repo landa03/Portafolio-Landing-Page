@@ -1,0 +1,24 @@
+$portafolio-white: rgb(224, 235, 235);
+$portafolio-black: rgb(18, 26, 26);
+$portafolio-blue: rgb(38, 217, 217);
+$button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(38, 217, 217, 0) 50%);
+@font-face {
+    font-family: Inter;
+    src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.footer-body{
+    color: $portafolio-white;
+    font-family: Inter;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    height: 116px;
+    gap: 26px;
+    padding-top: 48px;
+    .footer-link{
+        display: flex;
+        align-items: center;
+    }
+}
+

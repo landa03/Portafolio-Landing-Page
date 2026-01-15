@@ -7,6 +7,7 @@ import Segment1 from "../public/Segment-1.jsx"
 import Segment2 from "../public/Segment-2.jsx"
 import Segment3 from "../public/Segment-3.jsx"
 import Segment4 from "../public/Segment-4.jsx"
+import Footer from "../public/Footer.jsx"
 
 // import { gsap } from "gsap"
 // import { useGSAP } from '@gsap/react';
@@ -55,6 +56,7 @@ createRoot(document.getElementById('root')).render(
     <Segment2 />
     <Segment3 />
     <Segment4 />
+    <Footer />
     {/* <App /> */}
 
     {/* <App /> */}

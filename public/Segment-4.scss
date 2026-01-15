@@ -7,83 +7,100 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-.segment-title{
+.segment-4-title{
     color: $portafolio-white;
     font-family: Inter;
     width: 100%;
     text-align: center;
     font-size: 64px;
+    // position: relative;
+    // top: 180px;
 }
+
+
 .segment-4-body{
+    padding-bottom: 100px;
+    // background-color: $portafolio-black;
+    // height: 1016px;
+    height: min-content;
+    // width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
     color: $portafolio-white;
     font-family: Inter;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: center;
-    height: min-content;
-    // width: 70%;
-    // justify-content: center;
+    padding-bottom: 0px;
     
-    
-    .segment-body-right{
-        // font-size: 40px;
-        font-size: 24px;
-        text-align: center;
-        width: 28.64%;
-        // width: 60%;
-        // width: 550;
-        padding-right: 15%;
-        // height: min-content;
-        
-    }
-    // .segment-body-left{
-    //     max-width: 550px;
-    //     padding: 0%;
-    // }
-    // .person-img-container{
-    //     max-width: 0px;
-    //     // width: fit-content;
-    //     // height: 800px;
-    //     .person-img{
-    //         overflow: hidden;
-    //         // border-bottom-right-radius: 2370px;
-    //         // width: 550px;
-    //         z-index: 2;
-    //         position: relative;
-    //         inset-block-start: -344.8px;//top to bottom
-    //         inset-inline-start: 0px;//left to right
-    //     }
-    // }
-    // .decal-container{
-    //     // max-width: 0px;
-
-    // }
-    // .blue-decal{
-    //     background-color: $portafolio-blue;
-    //     height: 476px;
-    //     width: 1168px;
-    //     border-radius: 584px;
-    //     position: relative;
-    //     // left: 15px;
-    //     // top: 336px;
-    //     inset-block-start: 160px;
-    //     inset-inline-start: -650px;
-    //     z-index: 1;
-    // }
-
     .segment-body-left{
-        height: min-content;
-        width: 40%;
-        // width: 660px;
-        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        // width: 50%;
+        width: 630px;
+        align-items: start;
+        padding-top: 80px;
+        padding-right: 80px;
+        height: fit-content;
+        .text-1{
+            font-size: 48px;
+            padding-bottom: 32px;
+    
+        }
+        .text-2{
+            font-size: 96px;
+            width: 630px;
+            font-weight: bold;
+        }
+        .text-3{
+            font-size: 48px;
+            text-align: end;
+            align-self: flex-end;
+            font-weight: bold;
+            padding-bottom: 40px;
+        }
+        
+        .segment-body-left-content{
+            // font-size: 32px;
+            font-size: 40px;
+            
+        }
+
+        .send-e-mail-button{
+            font-size: 24px;
+            align-self: flex-end;
+            color: $portafolio-black;
+            background-color: $portafolio-blue;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 40px;
+            transition: all 0.2s ease-in-out;
+        }
+        .send-e-mail-button:hover{
+            transition: all 0.2s ease-in-out;
+            background-color: $portafolio-blue;
+            filter: brightness(130%);
+            
+        }
+    }
+    .segment-body-right{
+        width: 50%;
+        width: 660px;
+        position: relative;
+        top: -100px;
         // overflow: hidden;
+        height: 716px;
+
         .blue-decal{
             background-color: $portafolio-blue;
             height: 476px;
             width: 1168px;
             border-radius: 584px;
             position: relative;
+            // left: 15px;
             left: -600px;
             top: 336px;
             // position: ;
@@ -96,7 +113,8 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
             top: -384px;
             height: 720px;
             // max-width: 800px;
-            // width: 80%;
+            // width: 100%;
+            width: fit-content;
             border-bottom-right-radius: 237px;
             overflow: hidden;
             img{
@@ -107,6 +125,4 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
             }
         }
     }
-}    
-
-
+}

@@ -18,82 +18,82 @@ $button-background-color: linear-gradient(0deg, rgba(38, 217, 217, 0.75), rgba(3
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.segment-body-left{
-    display: flex;
-    flex-direction: column;
-    // width: 50%;
-    width: 630px;
-    align-items: start;
-    padding-top: 80px;
-    padding-right: 80px;
-    .text-1{
-        font-size: 48px;
-        padding-bottom: 32px;
-
-    }
-    .text-2{
-        font-size: 96px;
+    
+    .segment-body-left{
+        display: flex;
+        flex-direction: column;
+        // width: 50%;
         width: 630px;
-        font-weight: bold;
+        align-items: start;
+        padding-top: 80px;
+        padding-right: 80px;
+        .text-1{
+            font-size: 48px;
+            padding-bottom: 32px;
+    
+        }
+        .text-2{
+            font-size: 96px;
+            width: 630px;
+            font-weight: bold;
+        }
+        .text-3{
+            font-size: 48px;
+            text-align: end;
+            align-self: flex-end;
+            font-weight: bold;
+            padding-bottom: 40px;
+        }
+        .send-e-mail-button{
+            font-size: 24px;
+            align-self: flex-end;
+            color: $portafolio-black;
+            background-color: $portafolio-blue;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 40px;
+            transition: all 0.2s ease-in-out;
+        }
+        .send-e-mail-button:hover{
+            transition: all 0.2s ease-in-out;
+            background-color: $portafolio-blue;
+            filter: brightness(130%);
+            
+        }
     }
-    .text-3{
-        font-size: 48px;
-        text-align: end;
-        align-self: flex-end;
-        font-weight: bold;
-        padding-bottom: 40px;
-    }
-    .send-e-mail-button{
-        font-size: 24px;
-        align-self: flex-end;
-        color: $portafolio-black;
-        background-color: $portafolio-blue;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 40px;
-        transition: all 0.2s ease-in-out;
-    }
-    .send-e-mail-button:hover{
-        transition: all 0.2s ease-in-out;
-        background-color: $portafolio-blue;
-        filter: brightness(130%);
-        
-    }
-}
-.segment-body-right{
-    width: 50%;
-    width: 660px;
-    // overflow: hidden;
-    .blue-decal{
-        background-color: $portafolio-blue;
-        height: 476px;
-        width: 1168px;
-        border-radius: 584px;
-        position: relative;
-        left: 15px;
-        top: 336px;
-        // position: ;
-    }
-    .person-img-container{
-        position: relative;
-        // left: 50vw;
-        // top: 156px;
-        left: 15px;
-        top: -384px;
-        height: 720px;
-        // max-width: 800px;
-        width: 100%;
-        border-bottom-left-radius: 237px;
-        overflow: hidden;
-        img{
+    .segment-body-right{
+        width: 50%;
+        width: 660px;
+        // overflow: hidden;
+        .blue-decal{
+            background-color: $portafolio-blue;
+            height: 476px;
+            width: 1168px;
+            border-radius: 584px;
             position: relative;
-            bottom: -10px;
-            left: -5px;
-            // object-fit: fill
+            left: 15px;
+            top: 336px;
+            // position: ;
+        }
+        .person-img-container{
+            position: relative;
+            // left: 50vw;
+            // top: 156px;
+            left: 15px;
+            top: -384px;
+            height: 720px;
+            // max-width: 800px;
+            width: 100%;
+            border-bottom-left-radius: 237px;
+            overflow: hidden;
+            img{
+                position: relative;
+                bottom: -10px;
+                left: -5px;
+                // object-fit: fill
+            }
         }
     }
 }
